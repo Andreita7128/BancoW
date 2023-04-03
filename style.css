@@ -46,23 +46,83 @@
         font-size: 20px,
         font-weight: bold;
 
-/*Typography Mobile*/
+    /*Typography Mobile*/
+    --title-mobile-important:
+        font-family: 'Hind', sans-serif,
+        font-size: 36px,
+        font-weight: bold;
 
+    --title-mobile-general:
+        font-family: 'Hind', sans-serif,
+        font-size: 32px,
+        font-weight: 600;
 
-/*Colors*/
-/*Primary*/
---primary-color-aqua: #04D9C4;
---primary-color-orange: #F25C05;
---primary-color-violet: #6321A6;
+    --title-mobile-tabNav:
+        font-family: 'Hind', sans-serif,
+        font-size: 28px,
+        font-weight: 600;
 
-/*Status*/
---status-color-error: #EB3232;
---status-color-alert: #FDA624;
---status-color-success: #2DC071;
+    --text-mobile-label:
+        font-family: 'Hind', sans-serif,
+        font-size: 24px,
+        font-weight: bold; 
+
+    --text-mobile-labelButton:
+        font-family: 'Nunito Sans', sans-serif,
+        font-size: 24px,
+        font-weight: bold;
+
+    --text-mobile-input:
+        font-family: 'Nunito Sans', sans-serif,
+        font-size: 14px,
+        font-weight: normal;
+
+    --text-mobile-relevantText:
+        font-family: 'Nunito Sans', sans-serif,
+        font-size: 14px,
+        font-weight: 800;
+
+    --text-mobile-description:
+        font-family: 'Nunito Sans', sans-serif,
+        font-size: 12px,
+        font-weight: normal;
+
+    --text-mobile-link:
+        font-family: 'Nunito Sans', sans-serif,
+        font-size: 12px,
+        font-weight: bold;
+
+    /*Colors*/
+    /*Primary*/
+    --primary-color-aqua: #04D9C4;
+    --primary-color-orange: #F25C05;
+    --primary-color-violet: #6321A6;
+
+    /*Text*/
+    --title-accent-blue: #3D94AF;
+    --title-accent-orange: #F68D2B;
+    --subtitle: #3E5270;
+    --paragraph: #4C5A71;
+    --inactive-text: #8994A5;
+    --button-text: #EEF2F8;
+
+    /*NavBar*/
+    --nav-bg: #FF891C;
+    --nav-actual-section: #F97226;
+    --nav-text: #FFFFFF;
+
+    /*Status*/
+    --status-color-error: #EB3232;
+    --status-color-alert: #FDA624;
+    --status-color-success: #2DC071;
+
+    /*Others*/
+    --color-white: #F2F2F2;
+
 
 }
 
-p{
+p {
     font: var(--text-desktop-label);
     color: var(--primary-color-violet);
 }
