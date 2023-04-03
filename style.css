@@ -1,0 +1,68 @@
+:root {
+
+    /*Typography Desktop*/
+    --title-desktop-important:
+        font-family: 'Hind', sans-serif,
+        font-size: 48px,
+        font-weight: bold;
+
+    --title-desktop-general:
+        font-family: 'Hind', sans-serif,
+        font-size: 40px,
+        font-weight: 600;
+
+    --title-desktop-tabNav:
+        font-family: 'Hind', sans-serif,
+        font-size: 32px,
+        font-weight: 600;
+
+    --text-desktop-label:
+        font-family: 'Hind', sans-serif,
+        font-size: 24px,
+        font-weight: bold;
+
+    --text-desktop-labelButton:
+        font-family: 'Nunito Sans', sans-serif,
+        font-size: 24px,
+        font-weight: bold;
+
+    --text-desktop-input:
+        font-family: 'Nunito Sans', sans-serif,
+        font-size: 24px,
+        font-weight: normal;
+
+    --text-desktop-relevantText:
+        font-family: 'Nunito Sans', sans-serif,
+        font-size: 24px,
+        font-weight: 800;
+
+    --text-desktop-description:
+        font-family: 'Nunito Sans', sans-serif,
+        font-size: 20px,
+        font-weight: normal;
+
+    --text-desktop-link:
+        font-family: 'Nunito Sans', sans-serif,
+        font-size: 20px,
+        font-weight: bold;
+
+/*Typography Mobile*/
+
+
+/*Colors*/
+/*Primary*/
+--primary-color-aqua: #04D9C4;
+--primary-color-orange: #F25C05;
+--primary-color-violet: #6321A6;
+
+/*Status*/
+--status-color-error: #EB3232;
+--status-color-alert: #FDA624;
+--status-color-success: #2DC071;
+
+}
+
+p{
+    font: var(--text-desktop-label);
+    color: var(--primary-color-violet);
+}
