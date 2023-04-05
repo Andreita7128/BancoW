@@ -20,17 +20,17 @@ class ArticleBlog extends HTMLElement {
   }
 
   connectedCallback() {
-
+    this.render()
   }
 
   render() {
     this.innerHTML = `
-      <link rel="stylesheet" href="./app/components/article-blog/article.css">
+      <link rel="stylesheet" href="./public/app/components/article-blog/article.css">
 
       <div class="card" style="width: 18rem;">
         <img src="${this.picture}" class="card-img-top" alt="328px">
           <div class="card-body">
-          <h5 class="card-title">${this.title}</h5>
+          <h5 class="card-title">${this.title} cbncgncgb</h5>
             <div class= "labels-blog">  
             </div>
           <p class="card-text">${this.description}</p>
