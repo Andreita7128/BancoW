@@ -1,20 +1,39 @@
+export var attributesArticle;
+(function (attributesArticle) {
+    attributesArticle["picture"] = "picture";
+    attributesArticle["title"] = "title";
+    attributesArticle["labels"] = "labels";
+    attributesArticle["likes"] = "likes";
+    attributesArticle["laugh"] = "laugh";
+    attributesArticle["angry"] = "angry";
+    attributesArticle["description"] = "description";
+    attributesArticle["comment"] = "comment";
+    attributesArticle["date"] = "date";
+})(attributesArticle || (attributesArticle = {}));
+
 class ArticleBlog extends HTMLElement {
 
   constructor() {
     super()
+    this.likes = parseInt(localStorage.getItem('likes') || '0');
+    this.laugh = parseInt(localStorage.getItem('laugh') || '0');
+    this.angry = parseInt(localStorage.getItem('angry') || '0');
+    this.comment = parseInt(localStorage.getItem('comment') || '0');
+    this.reaction = parseInt(localStorage.getItem('reaction') || false);
   }
 
   static get observedAttributes() {
     const changeValues = {
       picture: null,
       title: null,
-      labels: {},
+      labels: null,
       likes: null,
       laugh: null,
       angry: null,
       description: null,
       comment: null,
-      date: null
+      date: null,
+      reaction: false,
     };
     return Object.keys(changeValues);
   }
@@ -23,18 +42,29 @@ class ArticleBlog extends HTMLElement {
     this.render()
   }
 
+  attributeChangedCallback(nameAttr, oldValue, newValue) {
+    this[nameAttr] = newValue;
+    this.render()
+  }
+
   render() {
     this.innerHTML = `
       <link rel="stylesheet" href="./public/app/components/article-blog/article.css">
 
       <div class="card" style="width: 18rem;">
-        <img src="${this.picture}" class="card-img-top" alt="328px">
+        <img src="${this.picture}" class="card-img-top article-img" alt="328px">
           <div class="card-body">
-          <h5 class="card-title">${this.title} cbncgncgb</h5>
-            <div class= "labels-blog">  
-            </div>
-          <p class="card-text">${this.description}</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title article-tittle">${this.title} </h5>
+          <p class= "labels-blog article-label"> ${this.labels}</p>
+          <p class="card-text article-description">${this.description} <a href="#">leer más...</a> </p>
+
+          <div class="container-reacts">
+          <p class="reacts-num"> <i class="bi bi-heart article-like icon-blog"></i> ${this.likes}</p>
+          <p class="reacts-num"> <i class="bi bi-emoji-laughing article-laugh icon-blog"></i> ${this.laugh}</p>
+          <p class="reacts-num"> <i class="bi bi-emoji-angry article-angry icon-blog"></i> ${this.angry}</p>
+          <p class="reacts-num"> <i class="bi bi-chat-left-text comment-angry icon-blog"></i> ${this.comment}</p>
+          </div>
+          
         </div>
       </div>
       `
@@ -43,54 +73,20 @@ class ArticleBlog extends HTMLElement {
 }
 
 customElements.define('article-blog', ArticleBlog)
-
-
 export default ArticleBlog
 
 
-/*
-class Navbar extends HTMLElement {
-    constructor() {
-      super();
-      
-    }
-  
-    connectedCallback() {
-      this.innerHTML = `
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">My Website</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-      `;
-    }
-  
-    
+/* chat-left-text
+
+handleLikeClick() {
+    this.likes++;
+    localStorage.setItem('likes', this.likes);
+    this.setAttribute('likes', this.likes);
   }
-  
-  customElements.define('my-navbar', Navbar);
-  */
+
+  handleComentarioSubmit() {
+    this.comentarios++;
+    localStorage.setItem('comentarios', this.comentarios);
+    this.setAttribute('comentarios', this.comentarios);
+  }
+}*/
