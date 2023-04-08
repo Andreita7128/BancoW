@@ -1,96 +1,26 @@
 :root {
 
     /*Typography Desktop*/
-    --title-desktop-important:
-        font-family: 'Hind', sans-serif,
-        font-size: 48px,
-        font-weight: bold;
-
-    --title-desktop-general:
-        font-family: 'Hind', sans-serif,
-        font-size: 40px,
-        font-weight: 600;
-
-    --title-desktop-tabNav:
-        font-family: 'Hind', sans-serif,
-        font-size: 32px,
-        font-weight: 600;
-
-    --text-desktop-label:
-        font-family: 'Hind', sans-serif,
-        font-size: 24px,
-        font-weight: bold;
-
-    --text-desktop-labelButton:
-        font-family: 'Nunito Sans', sans-serif,
-        font-size: 24px,
-        font-weight: bold;
-
-    --text-desktop-input:
-        font-family: 'Nunito Sans', sans-serif,
-        font-size: 24px,
-        font-weight: normal;
-
-    --text-desktop-relevantText:
-        font-family: 'Nunito Sans', sans-serif,
-        font-size: 24px,
-        font-weight: 800;
-
-    --text-desktop-description:
-        font-family: 'Nunito Sans', sans-serif,
-        font-size: 20px,
-        font-weight: normal;
-
-    --text-desktop-link:
-        font-family: 'Nunito Sans', sans-serif,
-        font-size: 20px,
-        font-weight: bold;
+    --title-desktop-important: 48px bold 'Hind', sans-serif;
+    --title-desktop-general: 40px 600 'Hind', sans-serif;
+    --title-desktop-tabNav: 32px 600 'Hind', sans-serif;
+    --text-desktop-label: 24px bold 'Hind', sans-serif;
+    --text-desktop-labelButton: 24px bold 'Nunito Sans', sans-serif;
+    --text-desktop-input: 24px normal 'Nunito Sans', sans-serif;
+    --text-desktop-relevantText: 24px 800 'Nunito Sans', sans-serif;
+    --text-desktop-description: 20px normal 'Nunito Sans', sans-serif;
+    --text-desktop-link: 20px bold 'Nunito Sans', sans-serif;
 
     /*Typography Mobile*/
-    --title-mobile-important:
-        font-family: 'Hind', sans-serif,
-        font-size: 36px,
-        font-weight: bold;
-
-    --title-mobile-general:
-        font-family: 'Hind', sans-serif,
-        font-size: 32px,
-        font-weight: 600;
-
-    --title-mobile-tabNav:
-        font-family: 'Hind', sans-serif,
-        font-size: 28px,
-        font-weight: 600;
-
-    --text-mobile-label:
-        font-family: 'Hind', sans-serif,
-        font-size: 24px,
-        font-weight: bold; 
-
-    --text-mobile-labelButton:
-        font-family: 'Nunito Sans', sans-serif,
-        font-size: 24px,
-        font-weight: bold;
-
-    --text-mobile-input:
-        font-family: 'Nunito Sans', sans-serif,
-        font-size: 14px,
-        font-weight: normal;
-
-    --text-mobile-relevantText:
-        font-family: 'Nunito Sans', sans-serif,
-        font-size: 14px,
-        font-weight: 800;
-
-    --text-mobile-description:
-        font-family: 'Nunito Sans', sans-serif,
-        font-size: 12px,
-        font-weight: normal;
-
-    --text-mobile-link:
-        font-family: 'Nunito Sans', sans-serif,
-        font-size: 12px,
-        font-weight: bold;
+    --title-mobile-h1: 28px bold 'Hind', sans-serif;
+    --title-mobile-h2: 24px 600 'Hind', sans-serif;
+    --title-mobile-h3: 20px 600 'Hind', sans-serif;
+    --text-mobile-h4: 16px 600 'Hind', sans-serif; 
+    --text-mobile-h5: 14px bold sans-serif;
+    --text-mobile-body1: 12px normal sans-serif;
+    --text-mobile-body2: 12px 800 'Nunito Sans', sans-serif;
+    --text-mobile-body-inputs: 20px 500 'Nunito Sans', sans-serif;
+    --text-mobile-body3: 16px 500 'Hind', sans-serif;
 
     /*Colors*/
     /*Primary*/
@@ -118,12 +48,18 @@
 
     /*Others*/
     --color-white: #F2F2F2;
+    --color-gray: #E5E5E5;
+    --color-text: #454545;
 
 
 }
 
 p {
+
     font: var(--text-desktop-label);
     
+=======
+    font: var(--text-mobile-body-inputs);
+
     color: var(--primary-color-violet);
 }
