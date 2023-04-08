@@ -124,5 +124,6 @@
 
 p {
     font: var(--text-desktop-label);
+    
     color: var(--primary-color-violet);
 }
