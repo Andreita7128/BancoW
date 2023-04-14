@@ -11,9 +11,7 @@ class AppContainer extends HTMLElement {
         super();
         this.article = [];
 
-        this.attachShadow({
-            mode: 'open'
-        });
+        const container = document.getElementById('container-articles');
 
         dataArticle.forEach((data) => {
             const articleCard = this.ownerDocument.createElement("article-blog");
@@ -28,19 +26,9 @@ class AppContainer extends HTMLElement {
             articleCard.setAttribute(attributesArticle.date, data.date);
             this.article.push(articleCard);
             console.log(this.article)
+            container.appendChild(articleCard);
         });
 
-    }
-    connectedCallback() {
-        this.render();
-    }
-    render() {
-            this.innerHTML = ``;
-            this.article.forEach((art) => {
-                var _a;
-                (_a = this.shadowRoot) === null || _a === void 0 ? void 0 : _a.appendChild(art);
-            });
-        
     }
 
 }

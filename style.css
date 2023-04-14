@@ -1,27 +1,4 @@
 :root {
-
-    /*Typography Desktop*/
-    --title-desktop-important: 48px bold 'Hind', sans-serif;
-    --title-desktop-general: 40px 600 'Hind', sans-serif;
-    --title-desktop-tabNav: 32px 600 'Hind', sans-serif;
-    --text-desktop-label: 24px bold 'Hind', sans-serif;
-    --text-desktop-labelButton: 24px bold 'Nunito Sans', sans-serif;
-    --text-desktop-input: 24px normal 'Nunito Sans', sans-serif;
-    --text-desktop-relevantText: 24px 800 'Nunito Sans', sans-serif;
-    --text-desktop-description: 20px normal 'Nunito Sans', sans-serif;
-    --text-desktop-link: 20px bold 'Nunito Sans', sans-serif;
-
-    /*Typography Mobile*/
-    --title-mobile-h1: 28px bold 'Hind', sans-serif;
-    --title-mobile-h2: 24px 600 'Hind', sans-serif;
-    --title-mobile-h3: 20px 600 'Hind', sans-serif;
-    --text-mobile-h4: 16px 600 'Hind', sans-serif; 
-    --text-mobile-h5: 14px bold sans-serif;
-    --text-mobile-body1: 12px normal sans-serif;
-    --text-mobile-body2: 12px 800 'Nunito Sans', sans-serif;
-    --text-mobile-body-inputs: 20px 500 'Nunito Sans', sans-serif;
-    --text-mobile-body3: 16px 500 'Hind', sans-serif;
-
     /*Colors*/
     /*Primary*/
     --primary-color-aqua: #04D9C4;
@@ -50,11 +27,20 @@
     --color-white: #F2F2F2;
     --color-gray: #E5E5E5;
     --color-text: #454545;
+}
 
-
+/* Typography */
+.headline1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 56px;
+    font-weight: bold;
 }
 
 p {
     font: var(--text-mobile-body-inputs);
     color: var(--primary-color-violet);
+}
+
+.input-color {
+    color: var(--primary-color-aqua) !important;
 }
