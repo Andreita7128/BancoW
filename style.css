@@ -57,8 +57,6 @@
 p {
 
     font: var(--text-desktop-label);
-    
-=======
     font: var(--text-mobile-body-inputs);
 
     color: var(--primary-color-violet);
