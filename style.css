@@ -1,65 +1,295 @@
 :root {
-
-    /*Typography Desktop*/
-    --title-desktop-important: 48px bold 'Hind', sans-serif;
-    --title-desktop-general: 40px 600 'Hind', sans-serif;
-    --title-desktop-tabNav: 32px 600 'Hind', sans-serif;
-    --text-desktop-label: 24px bold 'Hind', sans-serif;
-    --text-desktop-labelButton: 24px bold 'Nunito Sans', sans-serif;
-    --text-desktop-input: 24px normal 'Nunito Sans', sans-serif;
-    --text-desktop-relevantText: 24px 800 'Nunito Sans', sans-serif;
-    --text-desktop-description: 20px normal 'Nunito Sans', sans-serif;
-    --text-desktop-link: 20px bold 'Nunito Sans', sans-serif;
-
-    /*Typography Mobile*/
-    --title-mobile-h1: 28px bold 'Hind', sans-serif;
-    --title-mobile-h2: 24px 600 'Hind', sans-serif;
-    --title-mobile-h3: 20px 600 'Hind', sans-serif;
-    --text-mobile-h4: 16px 600 'Hind', sans-serif; 
-    --text-mobile-h5: 14px bold sans-serif;
-    --text-mobile-body1: 12px normal sans-serif;
-    --text-mobile-body2: 12px 800 'Nunito Sans', sans-serif;
-    --text-mobile-body-inputs: 20px 500 'Nunito Sans', sans-serif;
-    --text-mobile-body3: 16px 500 'Hind', sans-serif;
-
     /*Colors*/
-    /*Primary*/
-    --primary-color-aqua: #04D9C4;
-    --primary-color-orange: #F25C05;
-    --primary-color-violet: #6321A6;
-
-    /*Text*/
-    --title-accent-blue: #3D94AF;
-    --title-accent-orange: #F68D2B;
-    --subtitle: #3E5270;
-    --paragraph: #4C5A71;
-    --inactive-text: #8994A5;
-    --button-text: #EEF2F8;
-
-    /*NavBar*/
-    --nav-bg: #FF891C;
-    --nav-actual-section: #F97226;
-    --nav-text: #FFFFFF;
-
-    /*Status*/
-    --status-color-error: #EB3232;
-    --status-color-alert: #FDA624;
-    --status-color-success: #2DC071;
-
-    /*Others*/
-    --color-white: #F2F2F2;
-    --color-gray: #E5E5E5;
-    --color-text: #454545;
+    /*Various*/
+    --color-base-white: #F2F2F2;
+    --color-accent-white: #F8F8F8;
+    --color-base-gray: #27262C;
+    --color-error: #EB3232;
+    --color-warning: #FDA624;
+    --color-success: #2DC071;
+    --color-accent-black: #000000;
+    --fill-success: rgba(45, 192, 113, 0.2);
+    --fill-error: rgba(235, 50, 50, 0.2);
+    ;
+    --fill-generic: rgba(0, 177, 187, 0.2);
+    --fill-input: #F2F4F5;
 
 
+    /*Blue*/
+    --color-blue1: #00B1BB;
+    --color-blue2: #2FD9DE;
+    --color-blue3: #BDF0F2;
+
+    /*Dark Violet*/
+    --color-dark-violet1: #2D3982;
+    --color-dark-violet2: #535C97;
+    --color-dark-violet3: #8A90B5;
+    --color-dark-violet4: #C3C5D4;
+
+    /*Violet*/
+    --color-violet1: #6321A6;
+    --color-violet2: #8E50B7;
+    --color-violet3: #BA93D2;
+    --color-violet4: #E4D4ED;
+
+    /*Orange*/
+    --color-orange1: #F25C05;
+    --color-orange2: #FF8826;
+    --color-orange3: #FFB67D;
 }
 
-p {
+/* Typography */
+.headline1-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 110%;
+}
 
-    font: var(--text-desktop-label);
-    
-=======
-    font: var(--text-mobile-body-inputs);
+.headline2-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+}
 
-    color: var(--primary-color-violet);
+.headline3-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+}
+
+.headline4-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.headline5-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.headline1-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.headline2-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.headline3-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.headline4-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.headline5-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.body1-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.body2-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.body3-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.body1-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.body2-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.body3-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.button-link-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.button-link-normal {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.button-link-medium {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.button-link-small {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.fields-text_placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.fields-text_title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.fields-text_description {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background-color: var(--fill-exit);
+}
+
+.button-large {
+    width: 327px;
+    height: 42px;
+    background: var(--color-blue1);
+    box-shadow: 0px 4px 10px rgba(0, 177, 187, 0.3);
+    border-radius: 48px;
+}
+
+/* Buttons*/
+
+.button-large-mobile {
+    width: 327px;
+    height: 42px;
+    border-radius: 48px;
+}
+
+.btn-active {
+    border: none;
+    background: var(--color-blue1);
+    color: var(--color-base-white);
+    box-shadow: 0px 4px 10px rgba(0, 177, 187, 0.3);
+}
+
+.btn-pressed {
+    border: none;
+    background: var(--color-blue3);
+    color: var(--color-blue1);
+    box-shadow: 0px 4px 10px rgba(0, 177, 187, 0.3);
+}
+
+.btn-inactive {
+    border: none;
+    background: #E3E5E6;
+    color: #979C9E;
+    box-shadow: 0px 4px 10px #E3E5E5;
+}
+
+.btn-outline {
+    border: 1px solid var(--color-blue1);
+    background-color: transparent;
+    color: var(--color-blue1);
+    filter: drop-shadow(0px 4px 10px rgba(0, 177, 187, 0.3));
+}
+
+.btn-outline-inactive{
+    border: 1px solid #CDCFD0;
+    background-color: transparent;
+    color: #CDCFD0;
+    filter: drop-shadow(0px 4px 10px rgba(0, 177, 187, 0.3));
+}
+
+.btn-transparent-active{
+    border: none;
+    background-color: transparent;
+    color: var(--color-blue1);
+    box-shadow: none;
+}
+  
+.btn-transparent-inactive{
+    border: none;
+    background-color: transparent;
+    color: #CDCFD0;
+    box-shadow: none;
 }
