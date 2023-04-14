@@ -286,7 +286,7 @@ header {
     color: var(--color-blue1);
     box-shadow: none;
 }
-
+  
 .btn-transparent-inactive{
     border: none;
     background-color: transparent;
