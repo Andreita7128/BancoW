@@ -1,0 +1,85 @@
+.form-group {
+  width: 310px;
+  height: 42px;
+  border: 1px solid #ced4da;
+  border-radius: 48px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.select-container {
+  width: 80px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Se agrega para centrar verticalmente el ícono de la bandera */
+}
+
+.country-select {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  padding-left: 24px;
+  border-radius: 48px;
+}
+
+.flag-icon-container {
+  width: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 48px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 20px; /* Se agrega padding-left para separar el ícono de la bandera del borde izquierdo */
+}
+
+.flag-icon {
+  width: 20px;
+  height: 8px;
+}
+
+.input-number {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  border-radius: 48px;
+}
+
+.form-group:focus-within {
+  background: rgba(0, 177, 187, 0.2);
+  border: 2px solid rgba(0, 177, 187, 1);
+}
+
+@media (max-width: 768px) {
+  .country-select {
+    font-size: 16px; /* Cambiar el tamaño de fuente en pantallas más pequeñas */
+  }
+
+  .input-number {
+    font-size: 16px; /* Cambiar el tamaño de fuente en pantallas más pequeñas */
+  }
+
+  .form-group {
+    display: flex; /* Utilizar flexbox para disposición */
+    flex-direction: row; /* Especificar la dirección de fila o columna según tus necesidades */
+  }
+
+  /* O utilizar grid para disposición */
+  .form-group {
+    display: grid;
+    grid-template-columns: 20% 80%; /* Especificar columnas de ancho flexible */
+  }
+}

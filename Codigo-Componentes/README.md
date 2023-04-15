@@ -1,1 +1,1 @@
-Crean su carpetita con su index y su css, en teoría a pesar de ser un css diferente deberian poder acceder a lo que esta en el css principal para las variables y eso, pero si no deben importarlo así @import url('ruta-del-archivo/estilos.css');
+Crean su carpetita con su index y su css, en teoría a pesar de ser un css diferente 

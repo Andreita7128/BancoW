@@ -1,0 +1,92 @@
+/* Tipografia importada del css de Andrea*/
+.headline1-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+
+    /*le agrego color*/
+    color: #F25C05;
+}
+
+/* Estos son mis estilos*/
+.w-tag{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 32px;
+    padding: 8px 16px;
+}
+
+.family-tag{
+    background-color: #FFE2CC;
+    color: #F25C05;
+}
+
+.business-tag{
+    background-color: #BDF0F2;
+    color: #00B1BB;
+}
+
+.grow-tag{
+    background-color: #E4D4ED;
+    color: #6321A6;
+}
+
+.check-container{
+    display: flex ;
+    align-items: center;
+}
+.check-button{
+    background-color:#DCDCDC;
+    width: 25px;
+    height: 25px;
+    margin-right: 13px;
+}
+.check-button:checked {
+    background-color: #00B1BB;
+    border-color: transparent;
+}
+
+.check-label{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.slide-label{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.breadcrumb-item{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6321A6;
+}
+.breadcrumb-item a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6321A6;
+}
+
+.title-container{
+    background-color: #f8f8f8;
+    padding: 14px 174px;
+}
