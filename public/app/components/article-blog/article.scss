@@ -1,0 +1,31 @@
+
+.article{
+    &-label{
+        display: inline-block;
+    padding: 5px;
+    border-radius: 16px;
+    background-color: var(--color-gray);
+    font: var(--text-mobile-body-inputs);
+    color: var(--color-text)
+    }
+}
+
+.article-description{
+    font: var(--text-mobile-body3) ;
+    color: var(--color-text);
+}
+
+.icon-blog{
+    color: var(--color-text);
+    opacity: 56%;
+}
+
+.container-reacts {
+    display: flex;
+    flex-direction: row;
+}
+
+.reacts-num {
+    padding: 5px;
+    color: var(--color-text);
+}

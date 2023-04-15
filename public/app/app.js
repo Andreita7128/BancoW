@@ -11,8 +11,11 @@ class AppContainer extends HTMLElement {
         super();
         this.article = [];
 
+        
+        this.innerHTML=`
+        <div id="container-articles"></div>
+        ` 
         const container = document.getElementById('container-articles');
-
         dataArticle.forEach((data) => {
             const articleCard = this.ownerDocument.createElement("article-blog");
             articleCard.setAttribute(attributesArticle.picture, data.picture);
