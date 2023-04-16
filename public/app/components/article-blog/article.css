@@ -2,7 +2,7 @@
   display: inline-block;
   padding: 5px;
   border-radius: 16px;
-  background-color: var(--color-gray);
+  background-color: var(--color-dark-violet1);
   font: var(--text-mobile-body-inputs);
   color: var(--color-text);
 }

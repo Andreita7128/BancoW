@@ -170,7 +170,7 @@
     line-height: 130%;
 }
 
-.button-link-bold {
+.text-button-link-bold {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -178,7 +178,7 @@
     line-height: 28px;
 }
 
-.button-link-normal {
+.text-button-link-normal {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -186,7 +186,7 @@
     line-height: 24px;
 }
 
-.button-link-medium {
+.text-button-link-medium {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -194,7 +194,7 @@
     line-height: 20px;
 }
 
-.button-link-small {
+.text-button-link-small {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -226,6 +226,8 @@
     line-height: 16px;
 }
 
+
+/* Logo */
 .logo {
     width: 122px;
     height: 44.46px;
@@ -243,11 +245,9 @@ header {
 }
 
 /* Buttons */
-.button-large {
+.button-large-mobile {
     width: 327px;
     height: 42px;
-    background: var(--color-blue1);
-    box-shadow: 0px 4px 10px rgba(0, 177, 187, 0.3);
     border-radius: 48px;
 }
 
@@ -257,31 +257,15 @@ header {
     border-radius: 48px;
 }
 
-.button-medium-desktop-mobile {
+.button-medium {
     width: 240px;
     height: 42px;
     border-radius: 48px;
 }
 
-.button-small-desktop-mobile {
+.button-small {
     width: 154px;
     height: 42px;
-    border-radius: 48px;
-}
-
-.button-large-desktop {
-    width: 240px;
-    height: 42px;
-    background: var(--color-blue1);
-    margin-right: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 177, 187, 0.3);
-    border-radius: 48px;
-}
-
-.button-medium-mobile-desktop {
-    width: 240px;
-    height: 42px;
-    box-shadow: 0px 4px 10px rgba(0, 177, 187, 0.3);
     border-radius: 48px;
 }
 
@@ -312,13 +296,7 @@ header {
     padding-right: 11px
 }
 
-/* Buttons*/
-
-.button-large-mobile {
-    width: 327px;
-    height: 42px;
-    border-radius: 48px;
-}
+/* Buttons States*/
 
 .btn-active {
     border: none;
@@ -395,8 +373,6 @@ a {
 ul {
     list-style: none;
 }
-
-body {}
 
 .first-nav {
     background-color: white;
