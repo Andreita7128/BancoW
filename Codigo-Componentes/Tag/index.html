@@ -22,74 +22,330 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
-    
     <title>Banco W - CristianGuevara</title>
-
 </head>
 
 <body>
 
-<h1>CristianGuevara</h1>
+    <section class="cheatsheet">
 
-<br>
+        <h1>Cheatsheet W</h1>
+    
+        <br>
+        <h1 class="headline1-desktop">Headline Size 1 - Desktop</h1>
+        <h2 class="headline2-desktop">Headline Size 2 - Desktop</h2>
+        <h3 class="headline3-desktop">Headline Size 3 - Desktop</h3>
+        <h4 class="headline4-desktop">Headline Size 4 - Desktop</h4>
+        <h5 class="headline5-desktop">Headline Size 5 - Desktop</h5>
+        <h6 class="headline6-desktop">Headline Size 6 - Desktop</h6>
+        <br>
+        <h1 class="headline1-mobile">Headline Size 1 - Desktop/h1>
+        <h2 class="headline2-mobile">Headline Size 2 - Desktop/h2>
+        <h3 class="headline3-mobile">Headline Size 3 - Desktop/h3>
+        <h4 class="headline4-mobile">Headline Size 4 - Desktop/h4>
+        <h5 class="headline5-mobile">Headline Size 5 - Desktop/h5>
+        <h6 class="headline6-mobile">Headline Size 6 - Desktop/h6>
+        <br>
+        <p class="body1-desktop">Paragraph Size 1 - Desktop</p>
+        <p class="body2-desktop">Paragraph Size 2 - Desktop</p>
+        <p class="body3-desktop">Paragraph Size 3 - Desktop</p>
+        <br>
+        <p class="body1-mobile">Paragraph Size 1 - Mobile</p>
+        <p class="body2-mobile">Paragraph Size 2 - Mobile</p>
+        <p class="body3-mobile">Paragraph Size 3 - Mobile</p>
+    </section>
 
-<h6>Tags del blog</h6>
-<span class="badge rounded-pill w-tag family-tag">Aprende en Familia</span>
-<span class="badge rounded-pill w-tag business-tag">Fortalece tu Negocio</span>
-<span class="badge rounded-pill w-tag grow-tag">Crecemos Juntos</span>
 
-<br>
-<br>
+    <section class="mobile-controllers">
 
-<h6>Controles - checkbox</h6>
-<div class="mb-3 form-check check-container">
-    <input type="checkbox" class="form-check-input check-button" id="exampleCheck1" checked="checked">
-    <label class="form-check-label check-label" for="exampleCheck1">Aqui se pone el label del checkbox</label>
-</div>
+        <br><br>
+        <h1>Mobile Controles</h1>
+    
+        <br>
+    
+        <h6>Tags del blog</h6>
+        <span class="badge rounded-pill w-tag family-tag">Aprende en Familia</span>
+        <span class="badge rounded-pill w-tag business-tag">Fortalece tu Negocio</span>
+        <span class="badge rounded-pill w-tag grow-tag">Crecemos Juntos</span>
+    
+        <br>
+        <br>
+    
+        <h6>Controles - checkbox</h6>
+        <div class="mb-3 form-check check-container">
+            <input type="checkbox" class="form-check-input check-button" id="exampleCheck1" checked="checked">
+            <label class="form-check-label check-label" for="exampleCheck1">Aqui se pone el label del checkbox</label>
+        </div>
+    
+        <br><br>
+    
+        <h6>Controles - Switch</h6>
+        <div class="mb-3 form-check form-switch check-container">
+            <input class="form-check-input check-button" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label check-label" for="flexSwitchCheckChecked">Aqui se pone el label del switch</label>
+        </div>
+    
+        <br><br>
+    
+        <h6>Controles - Slider</h6>
+        <div class="mb-3">
+            <label for="customRange3" class="form-label slide-label">Aqui se pone el label del slider</label>
+            <input type="range" class="form-range" min="0" max="5" step="0.05" id="customRange3">
+        </div>
+    
+        <br><br>
+    
+        <h6>Controles - Breadcrumbs</h6>
+        <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>'">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Level 1</a></li>
+            <li class="breadcrumb-item"><a href="#">Level 2</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Level 3</li>
+            </ol>
+        </nav>
+    
+        <br><br>
+    
+        <h6>Controles - Breadcrumbs dentro de contenedor y titulo</h6>
+    
+        <div class="title-container">
+    
+            <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>'">
+                <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Level 1</a></li>
+                <li class="breadcrumb-item"><a href="#">Level 2</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Level 3</li>
+                </ol>
+            </nav>
+    
+            <h1 class="headline1-mobile">Titulo en H1 para mobile</h1>
+        </div>
+    </section>
 
-<br><br>
+    <section class="elementos-dashboard">
 
-<h6>Controles - Switch</h6>
-<div class="mb-3 form-check form-switch check-container">
-    <input class="form-check-input check-button" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
-    <label class="form-check-label check-label" for="flexSwitchCheckChecked">Aqui se pone el label del switch</label>
-</div>
+        <br><br><br>
+        <h1>Elementos del dashboard</h1>
+        <h3>Preferiblemente responsive pero primero solo desktop</h3>
+    
+        <!-- Sidebar desktop -->
+        <div class="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary" style="width: 280px;">
+            <h3 class="headline3-desktop d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            <span class="fs-4">Mi Perfil W</span>
+            </h3>
+    
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link active" aria-current="page">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"/></svg>
+                Perfil
+                </a>
+            </li>
+            <li>
+                <a href="#" class="side-link nav-link link-body-emphasis">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"/></svg>
+                Tus Productos
+                </a>
+            </li>
+            <li>
+                <a href="#" class="side-link nav-link link-body-emphasis">
+                    <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"/></svg>
+                Giros Internacionales
+                </a>
+            </li>
+            <li>
+                <a href="#" class="side-link nav-link link-body-emphasis">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"/></svg>
+                Alcancias
+                </a>
+            </li>
+            <li>
+                <a href="#" class="side-link nav-link link-body-emphasis">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                Agenda Financiera
+                </a>
+            </li>
+            <li>
+                <a href="#" class="side-link nav-link link-body-emphasis">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                Extractos y Certificados
+                </a>
+            </li>
+            </ul>
+            <hr>
+            <div class="dropdown">
+            <a href="#" class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                <strong>Nombre de Usuario</strong>
+            </a>
+            <ul class="dropdown-menu text-small shadow">
+                <li><a class="dropdown-item" href="#">Ayuda</a></li>
+                <li><a class="dropdown-item" href="#">Ajustes</a></li>
+                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Cerrar Sesion</a></li>
+            </ul>
+            </div>
+        </div>
 
-<br><br>
+        <!-- Titulo Pagina Dashboard-->
+        <br><br>
+        <div class="title-container-dashboard">
+            <h4 class="headline4-desktop white-h">Titulo Pagina</h4>
+        </div>
 
-<h6>Controles - Slider</h6>
-<div class="mb-3">
-    <label for="customRange3" class="form-label slide-label">Aqui se pone el label del slider</label>
-    <input type="range" class="form-range" min="0" max="5" step="0.05" id="customRange3">
-</div>
+        <!-- Card user.producto - Dashboard-->
+        <br><br>
+        <div class="user-product-container">
+            <div class="user-product-head">
+                <h5 class=" headline5-desktop white-h no-line-height">Tipo - Nombre Producto</p>
+            </div>
+            <div class="user-product-body">
+                <p><strong>0000 0000 0000 0000</strong></p>
+                <p>Saldo</p>
+                <h4 class="headline4-desktop purple-h">$000.000.000</h4>
+                <hr>
+            </div>
+            <div class="user-product-data">
+                <div class="">
+                    <p><strong>Próxima Cuota</strong></p>
+                    <h5 class="headline5-desktop">$000.000.000</h5>
+                </div>
+                <div class="">
+                    <p><strong>Fecha Límite</strong></p>
+                    <h5 class="headline5-desktop">Dia Mes</h5>
+                </div>
+            </div>
+        </div>
 
-<br><br>
+        
+        <!-- Agenda Financiera - Dashboard-->
+        <br><br>
+        <div class="user-agenda-container">
+            <div class="user-agenda-head">
+                <h5 class=" headline5-desktop white-h no-line-height">Tu Agenda Financiera</p>
+            </div>
+            <div class="user-agenda-body">
 
-<h6>Controles - Breadcrumbs</h6>
-<nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>'">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="#">Level 1</a></li>
-      <li class="breadcrumb-item"><a href="#">Level 2</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Level 3</li>
-    </ol>
-</nav>
+                <div class="calendar-title">
+                    <p class="black-base"><strong>Esta semana</strong></p>
+                </div>
+                <div class="calendar">
+                    <div class="calendar-item">
+                        <p>D</p>
+                        <p>0</p>
+                    </div>
+                    <div class="calendar-item">
+                        <p>L</p>
+                        <p>0</p>
+                    </div>
+                    <div class="calendar-item">
+                        <p class="headline5-desktop purple-h">M</p>
+                        <p class="headline5-desktop purple-h">0</p>
+                    </div>
+                    <div class="calendar-item">
+                        <p>M</p>
+                        <p>0</p>
+                    </div>
+                    <div class="calendar-item">
+                        <p>J</p>
+                        <p>0</p>
+                    </div>
+                    <div class="calendar-item">
+                        <p>V</p>
+                        <p>0</p>
+                    </div>
+                    <div class="calendar-item">
+                        <p>S</p>
+                        <p>0</p>
+                    </div>
 
-<br><br>
+                </div>
+                <hr>
+            </div>
+            <div class="user-agenda-data">
+                <div class="calendar-event">
+                    <div class="calendar-event-head">
+                        <h5 class="headline5-desktop black-base">Pago crédito Yo Construyo</h5>
+                        <p class="black-base">Formas de Pago: Virtual / Presencial</p>
+                    </div>
 
-<h6>Controles - Breadcrumbs dentro de contenedor y titulo</h6>
+                    <div class="calendar-event-data">
+                        <div class="calendar-event-detail">
+                            <p class="black-base body3-desktop">Próxima Cuota</p>
+                            <h5 class="headline5-desktop black-base">$000.000.000</h5>
+                        </div>
+                        <div class="calendar-event-detail">
+                            <p class="black-base body3-desktop">Fecha Límite</p>
+                            <h5 class="headline5-desktop black-base">Dia Mes</h5>
+                        </div>
+                    </div>
+                </div>
+                <button>Pago PSE - Buscar Elemento en otro css</button>
+            </div>
+        </div>
 
-<div class="title-container">
+        <!-- Profile Elements-->
+        <br><br>
+        <div class="profile-card-user white-acc-bg">
+            <div class="user-img-small"></div>
+            <div class="user-name">
+                <h5 class="headline5-desktop">Sandra Rodríguez</h5>
+                <p class="body2-desktop">Emprendedor</p>
+                <p class="body2-desktop">Cali, Valle del Cauca, Colombia</p>
+            </div>
+            <div class="user-edit-button">
+                <button>editar con logo</button>
+            </div>
+        </div>
+        <br>
 
-    <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>'">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Level 1</a></li>
-          <li class="breadcrumb-item"><a href="#">Level 2</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Level 3</li>
-        </ol>
-    </nav>
+        <div class="profile-card-info white-acc-bg">
+            <div class="user-information-title">
+                <h4 class="headline4-desktop black-base">Información Personal</h4>
+            </div>
+            <div class="user-information">
+                <div class="user-information-names user-information-row">
+                    <div class="info-item">
+                        <h5 class="headline5-desktop">Nombres</h5>
+                        <p class="body2-desktop">Sandra</p>
+                    </div>
+                    <div class="info-item">
+                        <h5 class="headline5-desktop">Apellidos</h5>
+                        <p class="body2-desktop">Rodríguez</p>
+                    </div>
+                </div>
 
-    <h1 class="headline1-mobile">Titulo en H1 para mobile</h1>
-</div>
+                <div class="user-information-contact user-information-row">
+                    <div class="info-item">
+                        <h5 class="headline5-desktop">Email</h5>
+                        <p class="body2-desktop">sandrarodriguez@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h5 class="headline5-desktop">Celular</h5>
+                        <p class="body2-desktop">(+57)311 429 1293</p>
+                    </div>
+                </div>
+                
+                <div class="user-information-description user-information-row">
+                    <div class="info-item">
+                        <h5 class="headline5-desktop">Biografía</h5>
+                        <p class="body2-desktop">Emprendedora Principiante</p>
+                    </div>
+                </div>
+            </div>
+            <div class="user-edit-button">
+                <button>editar con logo</button>
+            </div>
+        </div>
+        <br>
+
+        <div class="profile-card-address"></div>
+    </section>
+
+
 
     <!--Js script-->
     <script src="script.js"></script>

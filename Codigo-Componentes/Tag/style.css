@@ -1,16 +1,214 @@
-/* Tipografia importada del css de Andrea*/
+/********************************************* Tipografia importada del css de Andrea *****************************************/
+.headline1-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 110%;
+}
+
+.headline2-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+
+.headline3-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+}
+
+.headline4-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.headline5-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+}
+
 .headline1-mobile {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
-
     /*le agrego color*/
     color: #F25C05;
 }
 
-/* Estos son mis estilos*/
+.headline2-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.headline3-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.headline4-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.headline5-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.body1-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.body2-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.body3-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.body1-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.body2-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.body3-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.text-button-link-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.text-button-link-normal {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.text-button-link-medium {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.text-button-link-small {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.fields-text_placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.fields-text_title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.fields-text_description {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/* Aqui le agrego estilo al <p> y al <li> *****************/
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+li{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+
+.side-link{
+    color: #00B1BB;
+}
+
+/************************************************ ESTILOS PROPIOS GENERAL ******************************/
 .w-tag{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -88,5 +286,109 @@
 
 .title-container{
     background-color: #f8f8f8;
-    padding: 14px 174px;
+    padding: 14px ;
+}
+
+.title-container-dashboard{
+    background-color: #F25C05;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.no-line-height{
+    
+}
+
+/* COLORES PARA LAS TIPOGRAFIAS*/
+.white-h{ color: white;}
+.purple-h{ color: #6321A6;}
+.black-base{ color: #27262c;}
+.black-acc{color: #000000;}
+.orange-h{color: #F25C05;}
+
+/* COLORES PARA LOS BACKGROUNDS*/
+.white-acc-bg{ background-color: #f8f8f8;}
+.white-base-bg{ background-color: #f2f2f2;}
+
+/************************************ CARD: USER PRODUCT ********************************************/
+.user-product-container{
+    background-color: #f8f8f8;
+    width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.user-product-head{
+    background-color: #6321A6;
+    padding: 10px 25px 1px;
+}
+
+.user-product-body{
+    padding: 15px 25px 0;
+}
+
+.user-product-data{
+    padding: 0 25px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/************************************ CARD: USER AGENDA ********************************************/
+.user-agenda-container{
+    background-color: #F2F4F5;
+    width: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.user-agenda-head{
+    background-color: #6321A6;
+    padding: 10px 45px 1px;
+}
+
+.user-agenda-body{
+    padding: 15px 25px 0;
+}
+.user-agenda-data{
+    padding: 0 90px 1px;
+}
+
+.calendar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    padding: 10px 80px;
+}
+
+.calendar-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar-title{
+    padding: 0 65px;
+}
+
+.calendar-event-data{
+    display: flex;
+    flex-direction: row;
+}
+
+.calendar-event-detail{
+    margin-right: 140px;
+}
+
+/******************************************* CARD USER PROFILE *************************/
+.profile-card-user{
+    display: flex;
+    flex-direction: row;
+}
+
+.user-information-row{
+    display: flex;
+    flex-direction: row;
 }
