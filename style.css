@@ -41,7 +41,7 @@
 }
 
 /* Typography */
-.headline1-desktop {
+h1 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -49,7 +49,7 @@
     line-height: 110%;
 }
 
-.headline2-desktop {
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -58,7 +58,7 @@
 }
 
 
-.headline3-desktop {
+h3 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -66,7 +66,7 @@
     line-height: 120%;
 }
 
-.headline4-desktop {
+h4 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -74,7 +74,7 @@
     line-height: 120%;
 }
 
-.headline5-desktop {
+h5 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -82,47 +82,7 @@
     line-height: 120%;
 }
 
-.headline1-mobile {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 120%;
-}
-
-.headline2-mobile {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 120%;
-}
-
-.headline3-mobile {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 120%;
-}
-
-.headline4-mobile {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 120%;
-}
-
-.headline5-mobile {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 120%;
-}
-
-.body1-desktop {
+.body1 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -130,7 +90,7 @@
     line-height: 140%;
 }
 
-.body2-desktop {
+.body2 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -138,7 +98,7 @@
     line-height: 130%;
 }
 
-.body3-desktop {
+.body3 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -146,28 +106,72 @@
     line-height: 130%;
 }
 
-.body1-mobile {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 140%;
-}
+@media only screen and (max-width: 768px) {
 
-.body2-mobile {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 130%;
-}
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+    }
+    
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 120%;
+    }
+    
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120%;
+    }
+    
+    h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 120%;
+    }
+    
+    h5 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 120%;
+    }
 
-.body3-mobile {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 130%;
+    .body1 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+    }
+    
+    .body2 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+    }
+    
+    .body3 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+    }
+
 }
 
 .text-button-link-bold {
@@ -240,21 +244,24 @@
 
 header {
     width: 100%;
-    height: 500px;
     background-color: var(--fill-exit);
 }
 
 /* Buttons */
-.button-large-mobile {
-    width: 327px;
+
+.button-large {
+    width: 423px;
     height: 42px;
     border-radius: 48px;
 }
 
-.button-large-desktop {
-    width: 423px;
-    height: 42px;
-    border-radius: 48px;
+@media only screen and (max-width: 768px) {
+    
+    .button-large {
+        width: 327px;
+        height: 42px;
+        border-radius: 48px;
+    }
 }
 
 .button-medium {
