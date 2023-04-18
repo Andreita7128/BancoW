@@ -374,6 +374,108 @@ ul {
     list-style: none;
 }
 
+
+/*  estilos breadcrumb creados por cris G*/
+.w-tag{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 32px;
+    padding: 8px 16px;
+}
+
+.family-tag{
+    background-color: #FFE2CC;
+    color: #F25C05;
+}
+
+.business-tag{
+    background-color: #BDF0F2;
+    color: #00B1BB;
+}
+
+.grow-tag{
+    background-color: #E4D4ED;
+    color: #6321A6;
+}
+
+.check-container{
+    display: flex ;
+    align-items: center;
+}
+.check-button{
+    background-color:#DCDCDC;
+    width: 25px;
+    height: 25px;
+    margin-right: 13px;
+}
+.check-button:checked {
+    background-color: #00B1BB;
+    border-color: transparent;
+}
+
+.check-label{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.slide-label{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.breadcrumb-item{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6321A6;
+}
+.breadcrumb-item a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6321A6;
+}
+
+.title-container{
+    background-color: #f8f8f8;
+    padding: 14px 0px;
+}
+
+/*Hero section microcredito*/
+
+section.hero{
+    padding: 80px 0;
+}
+
+section.hero .text{
+    padding: 14px 100px;
+    padding-right: 0px;
+}
+
+.buttons{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+/*Menu flotante*/
+#menu-flotante li{
+    padding-top: 25px;
+}
 .first-nav {
     background-color: white;
 }
@@ -471,7 +573,7 @@ ul {
 }
 
 .card {
-    padding-top: 20px;
+    padding-top: 0px;
     border-radius: 20px;
 }
 
@@ -511,3 +613,230 @@ ul {
         border-bottom: 2px solid #DDDDDD;
     }
 }
+
+/*------------------------------------------------------------------------
+Responsive section
+--------------------------------------------------------------------------*/
+@media(max-width:576px){
+    
+    .headline1-desktop{
+        font-size: 32px;
+        
+        
+    }
+    .button-large-desktop{
+        width: 327px;
+        height: 42px;
+        align-items: center;
+    }
+    * {
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+    }
+
+    .card {
+        margin: 20px auto auto auto;
+
+        width: 80%;
+        height: auto;
+        background-color: #fff;
+
+        border-radius: 20px;
+        box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+
+        overflow: hidden;
+    }
+
+    .orangeTyped {
+        color: #F25C05;
+    }
+
+    .card>a {
+        color: #252B42;
+        width: 75%;
+        height: 100%;
+        padding: 35px 40px 15px;
+    }
+
+    .medium-active {
+        margin: 14px 0px;
+        width: 90%;
+        height: 42px;
+        border-radius: 48px;
+        font-weight: 600;
+    }
+
+    .card_tittle {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 120%;
+        margin: 15px 0px;
+    }
+
+    .text_in_card {
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 28px;
+
+    }
+
+    .img_in_card {
+        width: 210%;
+        height: auto;
+        margin: -35px -40px auto -40px;
+    }
+
+    .tags_section {
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+    }
+
+    .tags_section p {
+        margin: -1px 0px;
+    }
+
+    .likes_card {
+        display: flex;
+        gap: 5px;
+    }
+
+    .comments_card {
+        display: flex;
+        gap: 5px;
+    }
+
+    .at_left {
+        display: flex;
+        gap: 25px;
+    }
+
+    .at_right {
+        display: flex;
+        gap: 25px;
+    }
+
+    .options_list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .num_likes {
+        color: #EB3232;
+        font-size: 16px;
+    }
+
+    .num_comments {
+        color: #707070;
+        font-size: 16px;
+
+    }
+
+    .tittle-in-form {
+
+        position: relative;
+
+        width: auto;
+        height: auto;
+        background-color: #ff8826;
+
+        padding: 35px 45px 30px;
+    }
+
+    .card_tittle_form {
+
+        width: auto;
+        margin: 0%;
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 33px;
+        text-align: center;
+
+        color: #FCFEFF;
+    }
+
+    .card>form {
+
+        padding: 0px 20px 15px;
+
+    }
+
+    .text_aclaracion_campos {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+
+    .large-active {
+        margin: 14px 0px;
+        width: 100%;
+        height: 42px;
+        border-radius: 48px;
+        font-weight: 600;
+    }
+
+    .campo_in_form .nombre_del_campo {
+        
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+
+        color: #27262C;
+
+    }
+
+    .card-shortTyped {
+        margin: 20px auto auto auto;
+
+        width: 80%;
+        height: auto;
+        background-color: #fff;
+
+        border-radius: 20px;
+        box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+
+        overflow: hidden;
+    }
+
+
+    .card-shortTyped >a {
+        color: #252B42;
+        width: 75%;
+        height: 100%;
+        padding: 40px;
+        display: flex;
+        align-content: center;
+        gap: 25px;
+    }
+
+    .toChange {
+        width: 14px;
+        height: 26px;
+        background-color: #27262C;
+        margin: auto;
+    }
+    
+
+}
+

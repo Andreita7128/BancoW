@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
   <!--Css link-->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="micro.css">
 
   <!--Typography-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,17 +29,15 @@
 
 <body>
 
-  <app-container> </app-container>
-
-  <script type="module" src="./public/app/app.js"></script>
-
+  <!-- Navbar -->
+  
   <!--Main Navigation-->
   <!-- Primera barra de navegación -->
   <nav class="navbar navbar-expand-lg navbar-light first-nav">
     <div class="container-fluid">
       <!-- Logo -->
       <a class="navbar-brand" href="#">
-        <img class="logo1" src="img/logo.png" alt="Logo de mi sitio web">
+        <img class="logo1" src="logo.png" alt="Logo de mi sitio web">
       </a>
 
       <!-- Botón para abrir la barra de navegación -->
@@ -80,7 +78,7 @@
     <div class="container-fluid mx-auto ">
       <!-- Marca -->
       <a class="navbar-brand d-md-none" href="#">
-        <img class="logo" src="img/logo.png" alt="Logo de mi sitio web">
+        <img class="logo" src="logo.png" alt="Logo de mi sitio web">
       </a>
 
       <!-- Botón para abrir la barra de navegación -->
@@ -175,6 +173,146 @@
       </div>
     </div>
   </nav>
+
+  <!--Breadcrumb creado por Cris G-->
+  <div class="title-container">
+
+        <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>'">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+              <li class="breadcrumb-item"><a href="#">Crédito</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Microcredito</li>
+            </ol>
+        </nav>
+    
+        <h1 class="headline1-mobile" style="color: var(--color-orange1);">Microcredito</h1>
+        
+    </div>
+
+
+  <!--Hero o portada principal-->
+  <!-- <section class="hero">
+        <div class="container">
+            <div class="row">
+           
+                <div class="col-md-6">
+                    <div class="text">
+                        <h1 class="headline1-desktop">Fortalecimiento para tu negocio</h1>
+                        <span><h2 class="body1-desktop">Tenemos un crédito enfocado a microempresarios y emprendedores como tú.</h2></span>
+                    </div>
+                    <div class="buttons">
+                        <a href="#" class="btn button-large-desktop btn-active text-button-link-normal">Solicita tu crédito aquí <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="try.png" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+  <!--Menu flotante-->
+  <!-- <div class="row">
+      <div class="col-md-4">
+        <ul id="menu-flotante">
+          <li>
+            <a href="#" class="px-4 py-2 mr-5 btn-outline button-medium">Caracteristicas</a>
+
+          </li>
+          <li>
+            <a href="#" class="px-4 py-2 mr-5 btn-outline button-medium">Caracteristicas</a>
+
+          </li>
+          <li>
+            <a href="#" class="px-4 py-2 mr-5 btn-outline button-medium">Caracteristicas</a>
+
+          </li>
+          <li>
+            <a href="#" class="px-4 py-2 mr-5 btn-outline button-medium">Caracteristicas</a>
+
+          </li>
+          <li>
+            <a href="#" class="px-4 py-2 mr-5 btn-outline button-medium">Caracteristicas</a>
+
+          </li>
+          <li>
+            <a href="#" class="px-4 py-2 mr-5 btn-outline button-medium">Caracteristicas</a>
+
+          </li>
+
+
+
+
+
+
+        </ul>
+
+      </div>
+
+
+
+
+    </div> -->
+
+  <!-- Portada -->
+
+  <section class="portada">
+    <div class="container">
+      <div class="row flex-column-reverse flex-md-row">
+        <div class="col-md-6">
+          <h1 class="headline1-desktop">Fortalecimiento para tu negocio</h1>
+          <span>
+            <h2 class="body1-desktop">Tenemos un crédito enfocado a microempresarios y emprendedores como tú.</h2>
+          </span>
+          <a href="#" class="btn button-large-desktop btn-active text-button-link-normal">Solicita tu crédito aquí <i
+              class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="col-md-6 ">
+          <img src="credit_img/portada.png" class="img-fluid" alt="Imagen de ejemplo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <a href="#">
+      <img class="img_in_card " src="credit_img/caracteristicas.png" alt="">
+      <p class="text_in_card">
+        <h3 class="body1-desktop">&#x2022; Antigüedad mínima del negocio: 1 año.</h3>
+        <h3 class="body1-desktop">&#x2022; Monto: desde 1 SMMLV hasta 120 SMMLV.</h3>
+        <h3 class="body1-desktop">&#x2022; <b> Tasa fija </b> durante toda la vigencia del préstamo.</h3>
+        <h3 class="body1-desktop">&#x2022; El plazo será dado de acuerdo al monto y al tipo de cliente.</h3>
+        <h3 class="body1-desktop">&#x2022; Disponible para clientes nuevos, renovación y preferenciales.</h3>
+        <h3 class="body1-desktop">&#x2022; Opción de adquirir de manera <b> opcional seguros </b> como: Soy Previsión Exequial,
+          Soy Vida, Soy Protección Familiar y Soy Patrimonio Seguro. </h3>
+        <h3 class="body1-desktop">&#x2022; Opción de ahorrar mientras se paga el crédito con el <b> Pagahorro.</b></h3>
+        </p>
+
+        <button class="btn-outline button-medium">Más sobre Pagahorro <i class="bi bi-arrow-right"></i> </button>
+
+    </a>
+  </section>
+
+  <section class="card">
+    <a href="#">
+      <img class="img_in_card " src="credit_img/requisitos.png" alt="">
+      
+      <p class="text_in_card">
+        <h3 class="body1-desktop">&#x2022; Fotocopia de la <b>cédula de ciudadanía</b> </h3>
+        <h3 class="body1-desktop">&#x2022; 2 <b> referencias comerciales</b> y/o personales, y una familiar.</h3>
+        <h3 class="body1-desktop">&#x2022; <b> Tasa fija </b> durante toda la vigencia del préstamo.</h3>
+        <h3 class="body1-desktop">&#x2022; <b>Facturas </b>  de compra del último año y servicios públicos al día.</h3>
+        <h3 class="body1-desktop">&#x2022; Seguro <b> deudores</b>. </h3>
+       </p>
+
+        <button class="btn-outline button-medium">Más sobre Pagahorro <i class="bi bi-arrow-right"></i> </button>
+
+    </a>
+  </section>
+
+
+
 
 
 
