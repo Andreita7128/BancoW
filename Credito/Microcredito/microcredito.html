@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banco W</title>
+  <!--Css Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+  <!--Css link-->
+  <link rel="stylesheet" href="micro.css">
+  <link rel="stylesheet" href="../../Salvavidas/salva.css">
+
+  <!--Typography-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+
+  <title>Banco W</title>
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  
+  <!--Main Navigation-->
+  <!-- Primera barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light first-nav">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img class="logo1" src="logo.png" alt="Logo de mi sitio web">
+      </a>
+
+      <!-- Botón para abrir la barra de navegación -->
+      <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      -->
+
+      <!-- Buscador -->
+
+      <div class="d-flex justify-content-center align-items-center">
+        <form class="d-flex my-2 my-lg-0">
+          <input class="form-control me-2 placeholder-input-desktop headline5-desktop" type="search"
+            placeholder="¿Que estas buscando?" aria-label="Search">
+          <button class="btn search-button btn-active" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+      </div>
+
+
+      <!-- Botones de canal de atención e iniciar sesión -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link button-medium btn-active text-center headline5-desktop" href="#"><i
+                class="bi bi-telephone distance-icon"></i>Canal de atención</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link button-medium btn-active text-center headline5-desktop" href="#"><i
+                class="bi bi-person distance-icon"></i>Mi perfil W</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Segunda barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark  second-nav">
+    <div class="container-fluid mx-auto ">
+      <!-- Marca -->
+      <a class="navbar-brand d-md-none" href="#">
+        <img class="logo" src="logo.png" alt="Logo de mi sitio web">
+      </a>
+
+      <!-- Botón para abrir la barra de navegación -->
+      <button class="navbar-toggler ms-auto button-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="bi bi-list"></span>
+      </button>
+
+      <!-- Opciones de navegación -->
+
+      <div class="collapse navbar-collapse" id="navbarNav2">
+        <form id="search-2" class="d-md-none d-flex mx-auto my-2 my-lg-0">
+          <input class="form-control me-2 placeholder-input-mobile mx-auto" type="search"
+            placeholder="¿Que estas buscando?" aria-label="Search">
+          <button class="btn btn-outline search-button mx-auto" type="submit"><i class="bi bi-search"></i></button>
+
+        </form>
+
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item d-md-none d-block">
+            <a class="nav-link button-medium btn-active text-center text-white mx-auto"
+              style="margin-top: 5px;" href="#">Mi perfil W</a>
+          </li>
+          <li class="nav-item d-md-none d-block">
+            <a class="nav-link button-medium btn-active text-center text-white mx-auto "
+              style="margin-top: 18px;" href="#">Canales de atención</a>
+          </li>
+
+
+          <li class="nav-item border-bottom-gg">
+            <a class="nav-link" href="#"><i class="bi bi-piggy-bank"></i>Ahorro e inversión</a>
+          </li>
+          <li class="nav-item dropdown border-bottom-gg">
+            <a class="nav-link dropdown-toggle nav-link-pressed" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Crédito
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Opción 1</a>
+              <a class="dropdown-item" href="#">Opción 2</a>
+              <a class="dropdown-item" href="#">Opción 3</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown border-bottom-gg">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Seguros
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Opción 1</a>
+              <a class="dropdown-item" href="#">Opción 2</a>
+              <a class="dropdown-item" href="#">Opción 3</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown border-bottom-gg">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Giros internacionales
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Opción 1</a>
+              <a class="dropdown-item" href="#">Opción 2</a>
+              <a class="dropdown-item" href="#">Opción 3</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown border-bottom-gg">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Comunidad W
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Opción 1</a>
+              <a class="dropdown-item" href="#">Opción 2</a>
+              <a class="dropdown-item" href="#">Opción 3</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Sobre nosotros
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Opción 1</a>
+              <a class="dropdown-item" href="#">Opción 2</a>
+              <a class="dropdown-item" href="#">Opción 3</a>
+            </div>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Breadcrumb creado por Cris G-->
+  <div class="title-container">
+
+        <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>'">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+              <li class="breadcrumb-item"><a href="#">Crédito</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Microcredito</li>
+            </ol>
+        </nav>
+    
+        <h1 class="headline1-mobile" style="color: var(--color-orange1);">Microcredito</h1>
+        
+    </div>
+
+
+  <!--Hero o portada principal-->
+  <!-- <section class="hero">
+        <div class="container">
+            <div class="row">
+           
+                <div class="col-md-6">
+                    <div class="text">
+                        <h1 class="headline1-desktop">Fortalecimiento para tu negocio</h1>
+                        <span><h2 class="body1-desktop">Tenemos un crédito enfocado a microempresarios y emprendedores como tú.</h2></span>
+                    </div>
+                    <div class="buttons">
+                        <a href="#" class="btn button-large-desktop btn-active text-button-link-normal">Solicita tu crédito aquí <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="try.png" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+  <!--Menu flotante-->
+  <!-- <div class="row">
+      <div class="col-md-4">
+        <ul id="menu-flotante">
+          <li>
+            <a href="#" class="px-4 py-2 mr-5 btn-outline button-medium">Caracteristicas</a>
+
+          </li>
+          <li>
+            <a href="#" class="px-4 py-2 mr-5 btn-outline button-medium">Caracteristicas</a>
+
+          </li>
+          <li>
+            <a href="#" class="px-4 py-2 mr-5 btn-outline button-medium">Caracteristicas</a>
+
+          </li>
+          <li>
+            <a href="#" class="px-4 py-2 mr-5 btn-outline button-medium">Caracteristicas</a>
+
+          </li>
+          <li>
+            <a href="#" class="px-4 py-2 mr-5 btn-outline button-medium">Caracteristicas</a>
+
+          </li>
+          <li>
+            <a href="#" class="px-4 py-2 mr-5 btn-outline button-medium">Caracteristicas</a>
+
+          </li>
+
+
+
+
+
+
+        </ul>
+
+      </div>
+
+
+
+
+    </div> -->
+
+  <!-- Portada -->
+
+  <section class="portada">
+    <div class="container">
+      <div class="row flex-column-reverse flex-md-row">
+        <div class="col-md-6">
+          <h1 class="headline1-desktop">Fortalecimiento para tu negocio</h1>
+          <span>
+            <h2 class="body1-desktop">Tenemos un crédito enfocado a microempresarios y emprendedores como tú.</h2>
+          </span>
+          <a href="#" class="btn button-large-desktop btn-active text-button-link-normal">Solicita tu crédito aquí <i
+              class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="col-md-6 ">
+          <img src="credit_img/portada.png" class="img-fluid" alt="Imagen de ejemplo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <a href="#">
+      <img class="img_in_card " src="credit_img/caracteristicas.png" alt="">
+      <p class="text_in_card">
+        <h3 class="body1-desktop">&#x2022; Antigüedad mínima del negocio: 1 año.</h3>
+        <h3 class="body1-desktop">&#x2022; Monto: desde 1 SMMLV hasta 120 SMMLV.</h3>
+        <h3 class="body1-desktop">&#x2022; <b> Tasa fija </b> durante toda la vigencia del préstamo.</h3>
+        <h3 class="body1-desktop">&#x2022; El plazo será dado de acuerdo al monto y al tipo de cliente.</h3>
+        <h3 class="body1-desktop">&#x2022; Disponible para clientes nuevos, renovación y preferenciales.</h3>
+        <h3 class="body1-desktop">&#x2022; Opción de adquirir de manera <b> opcional seguros </b> como: Soy Previsión Exequial,
+          Soy Vida, Soy Protección Familiar y Soy Patrimonio Seguro. </h3>
+        <h3 class="body1-desktop">&#x2022; Opción de ahorrar mientras se paga el crédito con el <b> Pagahorro.</b></h3>
+        </p>
+
+        <button class="btn-outline button-medium">Más sobre Pagahorro <i class="bi bi-arrow-right"></i> </button>
+
+    </a>
+  </section>
+
+  <section class="card">
+    <a href="#">
+      <img class="img_in_card " src="credit_img/requisitos.png" alt="">
+      
+      <p class="text_in_card">
+        <h3 class="body1-desktop">&#x2022; Fotocopia de la <b>cédula de ciudadanía</b> </h3>
+        <h3 class="body1-desktop">&#x2022; 2 <b> referencias comerciales</b> y/o personales, y una familiar.</h3>
+        <h3 class="body1-desktop">&#x2022; <b> Tasa fija </b> durante toda la vigencia del préstamo.</h3>
+        <h3 class="body1-desktop">&#x2022; <b>Facturas </b>  de compra del último año y servicios públicos al día.</h3>
+        <h3 class="body1-desktop">&#x2022; Seguro <b> deudores</b>. </h3>
+       </p>
+
+        <button class="btn-outline button-medium">Más sobre Pagahorro <i class="bi bi-arrow-right"></i> </button>
+
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footerW">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5 class="headline5-desktop text-white border-bottom pb-2">Acerca de nosotros</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Quiénes sómos</a></li>
+            <li><a href="#" class="text-white">Trabaja con nosotros</a></li>
+            <li><a href="#" class="text-white">Proveedores</a></li>
+            <li><a href="#" class="text-white">Licitación de seguros</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="headline5-desktop text-white border-bottom pb-2">Tasas y tarifas</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Microcrédito</a></li>
+            <li><a href="#" class="text-white">Libranza</a></li>
+            <li><a href="#" class="text-white">Cuenta de ahorro</a></li>
+            <li><a href="#" class="text-white">Depósito de bajo monto</a></li>
+            <li><a href="#" class="text-white">CDT</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="headline5-desktop text-white border-bottom pb-2">Te escuchamos</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Consultas, quejas o reclamos</a></li>
+            <li><a href="#" class="text-white">Defensor del consumidor financiero</a></li>
+            <li><a href="#" class="text-white">Deberes y derechos del consumidor</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="headline5-desktop text-white border-bottom pb-2">Nuestras redes sociales</h5>
+          <ul class="list-unstyled d-flex ">
+            <li class="px-4"><a href="#" class="text-white "><i class="bi bi-facebook h2"></i></a></li>
+            <li class="px-4"><a href="#" class="text-white"><i class="bi bi-twitter h2"></i></a></li>
+            <li class="px-4"><a href="#" class="text-white"><i class="bi bi-youtube h2 "></i></a></li>
+            <li class="px-4"><a href="#" class="text-white"><i class="bi bi-instagram h2"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+
+  <section class="contenedor">
+    <input type="checkbox" name="" id="btn-plus">
+    <section id="content-in-help">
+
+        <section class="to-search-salvavidas">
+            <form class="search-in-salvavidas">
+                <input type="search" placeholder="Haz tu pregunta aqui..." name="Preguntas Frecuentes"
+                    id="search-bar-salvavidas">
+                <img id="lupita-salvavidas" src="/lupita.svg" width="20" alt="">
+            </form>
+        </section>
+        
+        <section class="preguntas-sugeridas">
+            <div id="preguntas-frecuentes-titulo">
+                <p class="title-salvavidas-preguntas"> Preguntas Frecuentes</p>
+            </div>
+            <div id="preguntas-frecuentes-sugerencias">
+               <button class="pregunta-frecuente-salvavidas" id="microcredito_salvalogo"> ¿Cómo sacar un credito? </button> 
+               <button class="pregunta-frecuente-salvavidas"> ¿Cómo solicitar un Gota Ahorro? </button> 
+               <button class="pregunta-frecuente-salvavidas"> ¿Cómo ingresar a yo construyo? </button> 
+            </div>
+        
+        
+        </section>
+        <section >
+            <button id="just-to-know">Educación financiera</button> 
+        </section>
+
+    </section>
+    <div class="btn-more">
+        <label for="btn-plus" class="salvavidas-logo"><img id="salvalogo" src="../../Salvavidas/salvalogo-default.svg" width="80"
+                alt="Boton salvavidas"></label>
+    </div>
+</section>
+
+
+
+
+
+  <!--Js script-->
+  <script src="script.js"></script>
+  <script src="../../Salvavidas/salvalogo.js"></script>
+
+  <!--Js Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
