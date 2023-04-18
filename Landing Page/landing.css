@@ -1,0 +1,187 @@
+#carousel {
+    padding: 50px 174px;
+    display: flex;
+    align-items: center;
+}
+
+.container-text-carousel {
+    width: 50%;
+    float: left;
+}
+
+.img-container-carousel {
+    width: 50%;
+    float: right;
+}
+
+#w-contigo-landing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 174px;
+}
+
+.card-landing1 {
+    width: 1090px !important;
+    background: white;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+    border-radius: 20px !important;
+    padding: 0px !important;
+    margin: 20px 0px;
+}
+
+.landing-card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 60px !important;
+}
+
+#products-similar {
+    padding: 30px 174px;
+    background-color: var(--color-accent-white);
+}
+
+.container-all-section {
+    display: flex;
+    margin: 20px;
+}
+
+.container-product-similar {
+    width: 133.05px;
+    height: 71.64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 14.3289px 10.235px 10.235px;
+    background-color: white;
+    box-shadow: 0px 3.16274px 11.0696px rgba(0, 0, 0, 0.15);
+    border-radius: 10.235px 0px 0px 10.235px;
+    font-size: 30px;
+}
+
+.c-p-s-active {
+    background-color: var(--color-blue2) !important;
+}
+
+.container-text-product-similar {
+    margin-top: -7px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--color-text);
+}
+
+#container-all-product {
+    height: 467px;
+    padding: 42px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#container-product-select {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10.2457px 43.0318px;
+    float: right;
+    width: 956.95px;
+    height: 467.2px;
+    background-color: white;
+    box-shadow: 0px 3.16604px 11.0812px rgba(0, 0, 0, 0.15);
+    border-radius: 20.4913px;
+}
+
+.c-p-s-img {
+    width: 50%;
+    float: left;
+}
+
+.c-p-s-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10.2457px;
+    gap: 5.12px;
+    width: 377.04px;
+    height: 368.84px;
+    background: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.list-product {
+    list-style: disc inside url("marcador.png");
+}
+
+#about-profile {
+    padding: 30px 174px;
+}
+
+#about-profile-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-img-ap {
+    width: 45%;
+    margin-left: -80px;
+    float: left;
+}
+
+.container1-cards-ap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-desk-small {
+    width: 255px;
+    height: 205px;
+    background: white;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.tittle-card-desk {
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.body-card-desk {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.text-card-desk{
+    margin-top:9px;
+}
+
+.container2-cards-ap {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.card-desk-large {
+    height: 157px;
+    background: white;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.container-all-cards {
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    float: right;
+}
