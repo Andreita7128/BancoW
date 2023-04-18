@@ -476,6 +476,9 @@ section.hero .text{
 #menu-flotante li{
     padding-top: 25px;
 }
+
+
+/* Navegación */
 .first-nav {
     background-color: white;
 }
@@ -489,6 +492,8 @@ section.hero .text{
     margin-right: 0 !important;
 
 }
+
+
 
 /*
 .button-nav{
@@ -612,6 +617,11 @@ section.hero .text{
     .border-bottom-gg {
         border-bottom: 2px solid #DDDDDD;
     }
+}
+/* Footer */
+.footerW{
+    padding-top: 20px;
+    background-color: var(--color-dark-violet1);
 }
 
 /*------------------------------------------------------------------------
@@ -840,3 +850,9 @@ Responsive section
 
 }
 
+/* Tamaño de iconos */
+
+.tamaño_icono{
+    width: 30px;
+    height: 30px;
+}
