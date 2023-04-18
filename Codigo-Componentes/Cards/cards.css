@@ -7,19 +7,15 @@
 
     .card {
         margin: 20px auto auto auto;
-
-        width: 80%;
+        padding-top: 0px !important;
+        width: 328px;
         height: auto;
         background-color: #fff;
-
-        border-radius: 20px;
+        border-radius: 20px !important;
         box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
-
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-
-
         overflow: hidden;
     }
 
@@ -29,9 +25,9 @@
 
     .card>a {
         color: #252B42;
-        width: 75%;
-        height: 100%;
-        padding: 35px 40px 15px;
+        width: 100%;
+        padding: 35px 20px 15px;
+        text-decoration: none;
     }
 
     .medium-active {
@@ -60,15 +56,13 @@
     }
 
     .img_in_card {
-        width: 134%;
         height: auto;
-        margin: -35px -40px auto -40px;
+        margin: -35px -40px auto -20px;
     }
 
     .tags_section {
         margin-top: 15px;
         display: flex;
-        flex-wrap: wrap;
         gap: 10px;
 
     }
