@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historias de Grandeza</title>
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="hg.css">
-    <link rel="stylesheet" href="/Codigo-Componentes/Cards/cards.css">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="../Credito/Microcredito/micro.css">
+    <link rel="stylesheet" href="../Codigo-Componentes/Cards/cards.css">
+    <link rel="stylesheet" href="../Codigo-Componentes/Tag/style.css">
     <link rel="stylesheet" href="/Codigo-Componentes/Inputs mobile/insputsStyle.css">
 
     <!--Css Bootstrap-->
@@ -28,218 +30,226 @@
 
 <body>
 
+    <header>
+        <!--Main Navigation-->
+        <!-- Primera barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-light first-nav">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img class="logo1" src="../images/logo-banco.png" alt="Logo de mi sitio web">
+                </a>
+
+                <!-- Buscador -->
+
+                <div class="d-flex justify-content-center align-items-center">
+                    <form class="d-flex my-2 my-lg-0">
+                        <input class="form-control me-2 placeholder-input-desktop headline4-desktop" type="search"
+                            placeholder="¿Que estas buscando?" aria-label="Search">
+                        <button class="btn search-button btn-active" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
 
 
-    <!--Main Navigation-->
-    <!-- Primera barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-light first-nav">
-        <div class="container-fluid">
-            <!-- Logo -->
-            <a class="navbar-brand" href="#">
-                <img class="logo1" src="/images/logo-banco.png" alt="Logo de mi sitio web">
-            </a>
-
-            <!-- Botón para abrir la barra de navegación -->
-            <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          -->
-
-            <!-- Buscador -->
-
-            <div class="d-flex justify-content-center align-items-center">
-                <form class="d-flex my-2 my-lg-0">
-                    <input class="form-control me-2 placeholder-input-desktop headline4-desktop" type="search"
-                        placeholder="¿Que estas buscando?" aria-label="Search">
-                    <button class="btn search-button btn-active" type="submit"><i class="bi bi-search"></i></button>
-                </form>
+                <!-- Botones de canal de atención e iniciar sesión -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link button-medium btn-active text-center headline4" href="#"><i
+                                    class="bi bi-telephone distance-icon"></i>Canal de atención</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link button-medium btn-active text-center headline4"
+                                style="margin-left: 10px;" href="#"><i class="bi bi-person distance-icon"></i>Mi perfil
+                                W</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+
+        <!-- Segunda barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-dark  second-nav">
+            <div class="container-fluid mx-auto ">
+                <!-- Marca -->
+                <a class="navbar-brand d-md-none" href="#">
+                    <img class="logo" src="../images/logo-banco.png" alt="Logo de mi sitio web">
+                </a>
+
+                <!-- Botón para abrir la barra de navegación -->
+                <button class="navbar-toggler ms-auto button-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="bi bi-list"></span>
+                </button>
+
+                <!-- Opciones de navegación -->
+
+                <div class="collapse navbar-collapse" id="navbarNav2">
+                    <form id="search-2" class="d-md-none d-flex mx-auto my-2 my-lg-0">
+                        <input class="form-control me-2 placeholder-input-mobile mx-auto" type="search"
+                            placeholder="¿Que estas buscando?" aria-label="Search">
+                        <button class="btn btn-outline search-button mx-auto" type="submit"><i
+                                class="bi bi-search"></i></button>
+
+                    </form>
+
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item d-md-none d-block">
+                            <a class="nav-link button-medium btn-active text-center text-white mx-auto"
+                                style="margin-top: 5px;" href="#">Mi perfil W</a>
+                        </li>
+                        <li class="nav-item d-md-none d-block">
+                            <a class="nav-link button-medium btn-active text-center text-white mx-auto "
+                                style="margin-top: 18px;" href="#">Canales de atención</a>
+                        </li>
 
 
-            <!-- Botones de canal de atención e iniciar sesión -->
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item ">
-                        <a class="nav-link button-large-desktop btn-active text-center headline4-desktop" href="#"><i
-                                class="bi bi-telephone distance-icon"></i>Canal de atención</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link button-large-desktop btn-active text-center headline4-desktop" href="#"><i
-                                class="bi bi-person distance-icon"></i>Mi perfil W</a>
-                    </li>
-                </ul>
+                        <li class="nav-item border-bottom-gg">
+                            <a class="nav-link" href="/Landing Page/landing.html">Inicio</a>
+                        </li>
+                        <li class="nav-item border-bottom-gg">
+                            <a class="nav-link" href="#">Ahorro e inversión</a>
+                        </li>
+                        <li class="nav-item dropdown border-bottom-gg">
+                            <a class="nav-link dropdown-toggle nav-link-pressed" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Crédito
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item"
+                                    href="../Credito/Microcredito/microcredito.html">Microcrédito</a>
+                                <a class="dropdown-item" href="#">Opción 2</a>
+                                <a class="dropdown-item" href="#">Opción 3</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown border-bottom-gg">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Seguros
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Opción 1</a>
+                                <a class="dropdown-item" href="#">Opción 2</a>
+                                <a class="dropdown-item" href="#">Opción 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown border-bottom-gg">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Giros internacionales
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Opción 1</a>
+                                <a class="dropdown-item" href="#">Opción 2</a>
+                                <a class="dropdown-item" href="#">Opción 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown border-bottom-gg">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Comunidad W
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/Historias de grandeza/hg.html">W Contigo</a>
+                                <a class="dropdown-item" href="#">Opción 2</a>
+                                <a class="dropdown-item" href="#">Opción 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Sobre nosotros
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Opción 1</a>
+                                <a class="dropdown-item" href="#">Opción 2</a>
+                                <a class="dropdown-item" href="#">Opción 3</a>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-
-    <!-- Segunda barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark  second-nav">
-        <div class="container-fluid mx-auto ">
-            <!-- Marca -->
-            <a class="navbar-brand d-md-none" href="#">
-                <img class="logo" src="img/logo.png" alt="Logo de mi sitio web">
-            </a>
-
-            <!-- Botón para abrir la barra de navegación -->
-            <button class="navbar-toggler ms-auto button-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="bi bi-list"></span>
-            </button>
-
-            <!-- Opciones de navegación -->
-
-            <div class="collapse navbar-collapse" id="navbarNav2">
-                <form id="search-2" class="d-md-none d-flex mx-auto my-2 my-lg-0">
-                    <input class="form-control me-2 placeholder-input-mobile mx-auto" type="search"
-                        placeholder="¿Que estas buscando?" aria-label="Search">
-                    <button class="btn btn-outline search-button mx-auto" type="submit"><i
-                            class="bi bi-search"></i></button>
-
-                </form>
-
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item d-md-none d-block">
-                        <a class="nav-link button-medium-mobile-desktop btn-active text-center text-white mx-auto"
-                            style="margin-top: 5px;" href="#">Mi perfil W</a>
-                    </li>
-                    <li class="nav-item d-md-none d-block">
-                        <a class="nav-link button-medium-mobile-desktop btn-active text-center text-white mx-auto "
-                            style="margin-top: 18px;" href="#">Canales de atención</a>
-                    </li>
-
-
-                    <li class="nav-item border-bottom-gg">
-                        <a class="nav-link" href="#"><i class="bi bi-piggy-bank"></i>Ahorro e inversión</a>
-                    </li>
-                    <li class="nav-item dropdown border-bottom-gg">
-                        <a class="nav-link dropdown-toggle nav-link-pressed" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Crédito
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Opción 1</a>
-                            <a class="dropdown-item" href="#">Opción 2</a>
-                            <a class="dropdown-item" href="#">Opción 3</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item dropdown border-bottom-gg">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Seguros
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Opción 1</a>
-                            <a class="dropdown-item" href="#">Opción 2</a>
-                            <a class="dropdown-item" href="#">Opción 3</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown border-bottom-gg">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Giros internacionales
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Opción 1</a>
-                            <a class="dropdown-item" href="#">Opción 2</a>
-                            <a class="dropdown-item" href="#">Opción 3</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown border-bottom-gg">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Comunidad W
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Opción 1</a>
-                            <a class="dropdown-item" href="#">Opción 2</a>
-                            <a class="dropdown-item" href="#">Opción 3</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Sobre nosotros
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Opción 1</a>
-                            <a class="dropdown-item" href="#">Opción 2</a>
-                            <a class="dropdown-item" href="#">Opción 3</a>
-                        </div>
-                    </li>
-
-
-                </ul>
-            </div>
-        </div>
-    </nav>
-
+        </nav>
+    </header>
 
     <!--Migas de pan-->
-    <div id="breadcrumb-container">
-        <ul class="bread-crumb">
-            <li class="text-button-link-medium breadcrumb-text"><a href="#">Inicio</a></li>
-            <li class="text-button-link-medium breadcrumb-text"><a href="#">Comunidad W</a></li>
-            <li class="active text-button-link-medium"> Historias de Grandeza </li>
-        </ul>
+    <div class="title-container">
+
+        <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>'">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../Landing Page/landing.html">Inicio</a></li>
+                <li class="breadcrumb-item"><a href="#">Comunidad W</a></li>
+                <a href="../Historias de grandeza/hg.html">
+                    <li class="breadcrumb-item active" aria-current="page"> > W Contigo</li>
+                </a>
+            </ol>
+        </nav>
+
+        <h1 class="headline1" style="color: var(--color-orange1)">W Contigo</h1>
     </div>
 
 
     <!--Formulario para historias de BancoW-->
-    <h1 class="breadcrumb-title">Llena el formulario y únete a la comunidad w</h1>
+    <h1 class="headline1" style="padding: 20px;">Llena el formulario y únete a la comunidad W</h1>
 
     <section class="card">
         <section class="tittle-in-form">
             <h3 class="card_tittle_form">Publica tu historia</h5>
         </section>
-        <form action="">
+        <form action="" style="padding: 0px;">
 
             <div>
-                <p class="text_aclaracion_campos">Los campos marcados con (*) son obligatorios.</p>
+                <p class="text_aclaracion_campos" style="padding: 10px 20px">Los campos marcados con (*) son
+                    obligatorios.</p>
             </div>
 
             <div class="campo_in_form">
-                <p class="nombre_del_campo">Título de la historia</p>
+                <p class="nombre_del_campo" style="padding: 0px 20px">Título de la historia</p>
                 <input class="form-control rounded-pill"
-                    style="width: 310px; height: 42px; border-color: #D3D3D3; background-color: #F4F4F4; border-radius: 48px;">
+                    style="width: 87%; height: 42px; margin: 0px 20px; border-color: #D3D3D3; background-color: #F4F4F4; border-radius: 48px;">
             </div>
 
             <div class="campo_in_form">
-                <p class="nombre_del_campo">Historia</p>
+                <p class="nombre_del_campo" style="padding: 10px 20px">Historia</p>
                 <input class="form-control rounded-pill"
-                    style="width: 310px; height: 42px; border-color: #D3D3D3; background-color: #F4F4F4; border-radius: 48px;">
+                    style="width: 87%; height: 42px; margin: 0px 20px; border-color: #D3D3D3; background-color: #F4F4F4; border-radius: 48px;">
             </div>
 
             <div class="campo_in_form">
-                <p class="nombre_del_campo">Sube tu foto</p>
+                <p class="nombre_del_campo" style="padding: 10px 20px">Sube tu foto</p>
                 <input class="form-control rounded-pill"
-                    style="width: 310px; height: 42px; border-color: #D3D3D3; background-color: #F4F4F4; border-radius: 48px;">
+                    style="width: 87%; height: 42px; margin: 0px 20px; border-color: #D3D3D3; background-color: #F4F4F4; border-radius: 48px;">
                 <div class="input"></div>
             </div>
 
             <div class="campo_in_form">
-                <p class="nombre_del_campo">Sube tu video</p>
-                <p class="text_aclaracion_campos">Sube un video de ti contando tu historia, muéstranos lugares y
+                <p class="nombre_del_campo" style="padding: 10px 20px">Sube tu video</p>
+                <p class="text_aclaracion_campos" style="padding: 0px 20px; margin-top: -10px;">Sube un video de ti
+                    contando tu historia, muéstranos lugares y
                     personas que hacen parte de tu experiencia </p>
                 <input class="form-control rounded-pill"
-                    style="width: 310px; height: 42px; border-color: #D3D3D3; background-color: #F4F4F4; border-radius: 48px;">
+                    style="width: 87%; height: 42px; margin: 0px 20px; border-color: #D3D3D3; background-color: #F4F4F4; border-radius: 48px;">
             </div>
 
             <div class="campo_in_form">
-                <p class="nombre_del_campo">Escoge las categorías que representan tu historia</p>
+                <p class="nombre_del_campo" style="padding: 10px 20px">Escoge las categorías que representan tu historia
+                </p>
                 <button class="btn rounded-pill text-button-link-normal" type="button" id="Button1"
-                    style="width: 310px; height: 42px; border: 1px solid #00B1BB; background-color: #FFFFFF; color: #00B1BB; margin-bottom: 10px;">
+                    style="width: 87%; height: 42px; margin: 0px 20px; border: 1px solid #00B1BB; background-color: #FFFFFF; color: #00B1BB; margin-bottom: 10px;">
                     Aprende en familia
                 </button>
                 <br> <!-- Añade un salto de línea para separar los botones -->
                 <button class="btn rounded-pill text-button-link-normal" type="button" id="Button2"
-                    style="width: 310px; height: 42px; border: 1px solid #00B1BB; background-color: #FFFFFF; color: #00B1BB; margin-bottom: 10px;">
+                    style="width: 87%; height: 42px; margin: 0px 20px; border: 1px solid #00B1BB; background-color: #FFFFFF; color: #00B1BB; margin-bottom: 10px;">
                     Crece con tu negocio
                 </button>
                 <br> <!-- Añade un salto de línea para separar los botones -->
                 <button class="btn rounded-pill text-button-link-normal" type="button" id="Button3"
-                    style="width: 310px; height: 42px; border: 1px solid #00B1BB; background-color: #FFFFFF; color: #00B1BB; margin-bottom: 10px;">
+                    style="width: 87%; height: 42px; margin: 0px 20px; border: 1px solid #00B1BB; background-color: #FFFFFF; color: #00B1BB; margin-bottom: 10px;">
                     Crecemos juntos
                 </button>
 
@@ -266,7 +276,8 @@
                 </script>
             </div>
 
-            <button class="btn-active large-active" id="submit-btn">Enviar solicitud aquí</button>
+            <button class="btn-active large-active" id="submit-btn"
+                style="width: 87%; height: 42px; margin: 20px 20px;">Enviar solicitud aquí</button>
 
             <!-- Elemento emergente -->
             <div id="popup" class="popup">
@@ -354,19 +365,46 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
-        </script>
+    </script>
 
-    <footer>
+    <!-- Footer -->
+    <footer class="footerW" style="margin-top: 30px;">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
-                    <p>&copy; 2023 BancoW. Todos los derechos reservados.</p>
+                <div class="col-md-3">
+                    <h5 class="headline5 text-white border-bottom pb-2">Acerca de nosotros</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Quiénes sómos</a></li>
+                        <li><a href="#" class="text-white">Trabaja con nosotros</a></li>
+                        <li><a href="#" class="text-white">Proveedores</a></li>
+                        <li><a href="#" class="text-white">Licitación de seguros</a></li>
+                    </ul>
                 </div>
-                <div class="col-sm-6">
-                    <ul class="social-media">
-                        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <div class="col-md-3">
+                    <h5 class="headline5 text-white border-bottom pb-2">Tasas y tarifas</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Microcrédito</a></li>
+                        <li><a href="#" class="text-white">Libranza</a></li>
+                        <li><a href="#" class="text-white">Cuenta de ahorro</a></li>
+                        <li><a href="#" class="text-white">Depósito de bajo monto</a></li>
+                        <li><a href="#" class="text-white">CDT</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="headline5 text-white border-bottom pb-2">Te escuchamos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Consultas, quejas o reclamos</a></li>
+                        <li><a href="#" class="text-white">Defensor del consumidor financiero</a></li>
+                        <li><a href="#" class="text-white">Deberes y derechos del consumidor</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="headline5 text-white border-bottom pb-2">Nuestras redes sociales</h5>
+                    <ul class="list-unstyled d-flex ">
+                        <li class="px-4"><a href="#" class="text-white "><i class="bi bi-facebook h2"></i></a></li>
+                        <li class="px-4"><a href="#" class="text-white"><i class="bi bi-twitter h2"></i></a></li>
+                        <li class="px-4"><a href="#" class="text-white"><i class="bi bi-youtube h2 "></i></a></li>
+                        <li class="px-4"><a href="#" class="text-white"><i class="bi bi-instagram h2"></i></a></li>
                     </ul>
                 </div>
             </div>

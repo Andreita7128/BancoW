@@ -185,3 +185,21 @@
     flex-direction: column;
     float: right;
 }
+
+@media only screen and (max-width: 768px) {
+
+    #carousel{
+        padding: 30px;
+    }
+
+    .h1-desk {
+        display: none;
+    }
+    
+    #h1-desk {
+        display: none;
+    }
+
+
+
+}

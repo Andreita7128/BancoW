@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px) {
     #share {
-        display: flex ;
+        display: flex !important;
         flex-direction: column;
         padding: 35px 20px !important;
     }
@@ -48,6 +48,28 @@
     #others-actions {
         display: block !important;
     }
+
+    #ours-label {
+        display: none ;
+    }
+
+    .h3-desk {
+        display: none;
+    }
+
+    .others-icon {
+        display: none;
+    }
+
+    #container-img-share {
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+
+    #container-text-btn {
+        width: 100% !important;
+    }
+
 }
 
 #share {

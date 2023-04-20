@@ -3,7 +3,7 @@ const microcredito = document.getElementById("microcredito_salvalogo");
 microcredito.addEventListener("click", changeToMicro);
 
 
-function changeToMicro () {
+function changeToMicro() {
 
     console.log(document.getElementById("content-in-help").innerHTML)
 
@@ -44,7 +44,7 @@ function changeToMicro () {
 
 
 
-function returnToMain () {
+function returnToMain() {
 
     console.log(document.getElementById("content-in-help").innerHTML)
 
@@ -76,7 +76,7 @@ function returnToMain () {
     <button id="just-to-know">Educación financiera</button> 
 </section>
     
-`     ;
+`;
 
 
 }
